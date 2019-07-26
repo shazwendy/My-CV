@@ -3,7 +3,8 @@
 /*body {height: 1000px;}*/
 .container{
 	margin: 0 auto; 
-	width: 1170px;
+	max-width: 1170px;
+	/*padding: 0 20px;*/
 }
 .clearfix{ clear: both; }
 
@@ -423,7 +424,7 @@ body {
 }
 */
 .footer ul{
-	padding-left: 0;/* to center it -iocn-*/
+	padding-left: 0;
 	list-style: none;
 	margin: 10px 0 10px 0;
 	/*float: right;*/
@@ -456,4 +457,17 @@ h2 ,h3 {
 	padding: 10px 30px;
 	font-weight: bold;
 
+}
+
+@media only screen and (max-width: 900px){
+	.june .web h2{
+		font-size: 40px;
+}
+}
+
+@media only screen and (max-width: 900px){
+	.content .java, .content .java:first-child, .content .java:last-child {
+		width: 100%;
+		padding: 10px;
+	}
 }
